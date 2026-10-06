@@ -1,0 +1,22 @@
+{
+  "name": "emi-playwright-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright + Cucumber EMI UI and API automation assessment",
+  "scripts": {
+    "test": "npm run test:ui && npm run test:api && npm run test:sql",
+    "test:ui": "cucumber-js",
+   "test:api": "playwright test tests/api/jsonplaceholder.spec.js",
+    "test:sql": "node run-sql.js",
+    "test:ui:report": "cucumber-js --format progress",
+    "test:api:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.51.0",
+    "dotenv": "^16.6.1"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}

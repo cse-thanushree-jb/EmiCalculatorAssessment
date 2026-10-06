@@ -1,0 +1,33 @@
+ght-assessment> npm run test:api
+
+> emi-playwright-assessment@1.0.0 test:api
+> playwright test tests/api/jsonplaceholder.spec.js
+
+API Automation Test Result
+
+Test file:
+tests/api/jsonplaceholder.spec.js
+
+Result:
+4 tests passed
+
+Scenarios:
+1. Creates a post with a normal payload
+2. Records observed behavior for an excessively long title
+3. Records observed behavior for special characters
+4. Records userId behavior without assuming strict validation
+
+Overall API Automation Status:
+PASSED
+
+Running 4 tests using 1 worker
+
+  ✓  1 …y behavior › creates a post with a normal payload (1.2s)
+  ✓  2 …ords observed behavior for excessively long title (1.2s)
+  ✓  3 …records observed behavior for special characters (986ms)
+  ✓  4 …erId behavior without assuming strict validation (483ms)
+
+  4 passed (5.0s)
+
+
+

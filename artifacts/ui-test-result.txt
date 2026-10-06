@@ -1,0 +1,15 @@
+EMI Calculator UI Automation Test Result
+
+Command:
+npm run test:ui
+
+Execution:
+Cucumber + Playwright
+
+Result:
+3 scenarios (3 passed)
+14 steps (14 passed)
+0m16.193s (executing steps: 0m16.133s)
+
+Status:
+PASSED

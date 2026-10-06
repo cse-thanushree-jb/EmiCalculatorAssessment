@@ -1,0 +1,22 @@
+SQL Validation Test Result
+
+Command:
+node run-sql.js
+
+Scenario 1: Round-trip transactions
+Result:
+Transaction 101 -> 102
+Outbound Amount: 1000
+Return Amount: 950
+Relative Difference: 0.05 (5%)
+Status: PASSED
+
+Scenario 2: IPL 2024 consecutive scoring streak
+Result:
+Player: Example Batter
+Streak Start Date: 2024-03-22
+Consecutive Matches: 3
+Status: PASSED
+
+Overall SQL Validation:
+PASSED
